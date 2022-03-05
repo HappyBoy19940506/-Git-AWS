@@ -10,4 +10,3 @@
 7. git fork   git pull request git merge
 8. git init
 
-s
