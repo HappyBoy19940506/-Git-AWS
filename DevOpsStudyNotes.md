@@ -9,4 +9,5 @@
 6. git push
 7. git fork   git pull request git merge
 8. git init
-
+9. git status
+10. git log
