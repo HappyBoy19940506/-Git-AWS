@@ -10,4 +10,8 @@
 7. git fork   git pull request git merge
 8. git init
 9. git status
-10. git log
+10. git log （space and "B"key to next page and last page. click "Q" to quit the log page)
+11. git log --pretty=oneline
+12. git log --oneline
+13. git reflog (will show how many steps if you need to rollback to that version)
+14. 
