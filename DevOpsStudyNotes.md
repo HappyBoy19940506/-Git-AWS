@@ -14,4 +14,7 @@
 11. git log --pretty=oneline
 12. git log --oneline
 13. git reflog (will show how many steps if you need to rollback to that version)
+14. git reset -- hard COMMIT ID
+14. git rest --(hard)(mixed)(soft) commitID
+14. use git reset --hard to go back version if some files are deleted unexpectedly .
 14. 
