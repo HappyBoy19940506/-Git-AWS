@@ -35,7 +35,7 @@
 
 17. every time u do the git add. it will take a screenshot of the current working space if u change the files in the working space,
 
-    You can use `git diff` to compare the differences.
+    You can use `git diff` to compare the differences.ss
 
     
 
