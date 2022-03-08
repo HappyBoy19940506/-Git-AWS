@@ -33,9 +33,21 @@
 
 16. use git reset --hard to go back version if some files are deleted unexpectedly.
 
-17. every time u do the git add. it will take a screenshot of the current working space if u change the files in the working space,
+17. every time u do the git add. it will take a screenshot of the current working space if u change the files in the working space, You can use `git diff` to compare the differences.ss. 
 
-    You can use `git diff` to compare the differences.ss
+18. `git diff`------compare diff between working space and cache space.
+
+19. `git diff HEAD`----- compare differences between caching space and  HEAD in commit repository.
+
+20. `git diff COMMIT_ID`   ---- compare cache space and any commit_ID space.
+
+21. `git branch -v` ---- show all braches including latest commit info.
+
+22. `git branch new_branch_name` create a new branch`new_branch_name`.
+
+23. `git checkout branch_name` switch to another branch.
+
+24. Main branch
 
     
 
