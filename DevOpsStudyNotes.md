@@ -33,11 +33,9 @@
 
 16. use git reset --hard to go back version if some files are deleted unexpectedly.
 
-17. every time u do the git add. it will take a screenshot of the current working space if u change the files in the working space,
+17. every time u do the git add. it will take a screenshot of the current working space if u change the files in the working spaceY ou can use `git diff` to compare the differences.
 
-    You can use `git diff` to compare the differences.ss
-
-    
+17. 222
 
     
 
