@@ -47,10 +47,9 @@
 
 23. `git checkout branch_name` switch to another branch.
 
-24. Main branch
+24. 
 
-    
 
-    
+​    
 
-    
+​    
