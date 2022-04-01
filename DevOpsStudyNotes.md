@@ -31,7 +31,26 @@
 25. `git reflog` will show all logs on this computer, including all branch's activities.
 26. Locally, if you only push one branch, the `origin` remote host can only record this particular branch. it has no record about other branches on your local computer.
 27. `conflict resolve` finds the conflict file, after resolving,  use `git add` and `git commit -m 'xxx' ` to finish the conflict, it will then merge automatically.
-28. test demo demo demo
+28. git log vs git reflog
+
+    ```
+    The biggest difference between Git reflog vs. log is that the log is a public accounting of the repository's commit history while the reflog is a private, workspace-specific accounting of the repo's local commits.
+    
+    The Git log is part of the Git repository and is replicated after a push, fork or pull.
+    But reflog contains so many private operations like switch branches(git checkout)
+    ```
+
+    
+29. git clone vs git fork
+
+    1. all go with logs
+    2. fork: the newly generated repository does not have the control permission of the previous original repository. it is an independent new one.
+
+30. git clone vs git pull
+
+    1. All go with logs
+    2. Basically, the same, clones normally use the first beginning to get the repo from the host.
+
 
 
 ​    
