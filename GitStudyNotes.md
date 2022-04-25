@@ -40,7 +40,6 @@
     But reflog contains so many private operations like switch branches(git checkout)
     ```
 
-    
 29. git clone vs git fork
 
     1. all go with logs
