@@ -43,5 +43,17 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
    AWS looks for above environment variables in your shell to match your identity. Therefore, you need to do above steps (3 export commands) every time you opens a new terminal tab to authenticate with AWS. 
    To make this easier, you can put these commands in your ~/.bashrc or ~/.zshrc config file.
    
-  9. Profile -
+  9. Profile - different users in the same CLI
+  A collection of settings is called a profile. By default, the AWS CLI uses the default profile. You can create and use additional named profiles with     varying credentials and settings by specifying the --profile option and assigning a name.
+
+  The following example creates a profile named produser.
+
+  $ aws configure --profile user1
+  AWS Access Key ID [None]: 1
+  AWS Secret Access Key [None]: 2
+  Default region name [None]: us-east-1
+  Default output format [None]: text
+  You can then specify a --profile profilename and use the credentials and settings stored under that name.
+
+  $ aws s3 ls --profile user1
       
