@@ -23,10 +23,14 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
   
   4.AWS Access Key ID [****************LLG5]: AKIW
   
-    AWS Secret Access Key [****************19ki]: sss
+   -AWS Secret Access Key [****************19ki]: sss
     
-    Default region name [us-east-1]: us-east-1
+   - Default region name [us-east-1]: us-east-1
     
-    Default output format [json]: json
+   - Default output format [json]: json
     
   5.aws s3 ls
+
+  6.cat ~/.aws/credentials
+  
+  7.cat ~/.aws/config
