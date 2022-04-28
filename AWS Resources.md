@@ -15,7 +15,7 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
 
 4. AWS CLI COMMAND
 
-  1.aws iam create-user 
+  1.aws iam create-user --user-name Bobbbb
   
   2.aws sts get-caller-identity
   
