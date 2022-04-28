@@ -34,3 +34,14 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
   6.cat ~/.aws/credentials
   
   7.cat ~/.aws/config
+  
+  8.
+      export AWS_REGION=ap-southeast-2 (or other regions you want to authenticate into)
+      export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
+      export AWS_PROFILE=default (profile name need to match the one in your ~/.aws/config file)
+      
+   AWS looks for above environment variables in your shell to match your identity. Therefore, you need to do above steps (3 export commands) every time you opens a new terminal tab to authenticate with AWS. 
+   To make this easier, you can put these commands in your ~/.bashrc or ~/.zshrc config file.
+   
+  9. Profile -
+      
