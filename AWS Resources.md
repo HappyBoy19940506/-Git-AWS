@@ -62,6 +62,6 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   
   5.   https://www.youtube.com/watch?v=ZqWb5nNzTf8&t=340s  DNS工作原理 | 什么是DNS 它如何工作\
   6.   https://www.youtube.com/watch?v=m73oA0_ptxc CDN是什么 | CDN的工作机制
-  7.   https://www.youtube.com/watch?v=gKI0LL15spU. 域名 和 ip
+  7.   https://www.youtube.com/watch?v=gKI0LL15spU. 买域名 和  买公网ip的服务器
   8.   
       
