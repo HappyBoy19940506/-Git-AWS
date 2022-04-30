@@ -56,4 +56,12 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   You can then specify a --profile profilename and use the credentials and settings stored under that name.
 
   $ aws s3 ls --profile user1
+  
+  
+  
+  
+  5.   https://www.youtube.com/watch?v=ZqWb5nNzTf8&t=340s  DNS工作原理 | 什么是DNS 它如何工作\
+  6.   https://www.youtube.com/watch?v=m73oA0_ptxc CDN是什么 | CDN的工作机制
+  7.   https://www.youtube.com/watch?v=gKI0LL15spU. 域名 和 ip
+  8.   
       
