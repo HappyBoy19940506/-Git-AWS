@@ -65,5 +65,5 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   7.   https://www.youtube.com/watch?v=gKI0LL15spU. 买域名 
   8.    https://www.youtube.com/watch?v=mN7aiHucHjg&t=9s  买公网ip的服务器
   9.    https://www.youtube.com/watch?v=YsOsmUUvwBA. 网站上线部署，dns解析，dns delegation，
-  10.    
+  10.    https://www.youtube.com/watch?v=Ge-dkZgqLKg.  how to apply a SSL certificate in AWS
       
