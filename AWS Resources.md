@@ -68,3 +68,4 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   10.    https://www.youtube.com/watch?v=Ge-dkZgqLKg.  how to apply a SSL certificate in AWS
   11.    https://zhuanlan.zhihu.com/p/400556541. 什么是CNAME以及CDN？
   12.    https://aws.amazon.com/cn/blogs/china/amazon-cloudfront-article/ 全站加速，Amazon CloudFront 配置不求人
+  13.    https://aws.amazon.com/cn/getting-started/hands-on/how-to-apply-ssl-tls-certificate/  SSL/TLS证书申请及使用方法
