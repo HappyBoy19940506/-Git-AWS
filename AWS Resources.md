@@ -69,4 +69,5 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   11.    https://zhuanlan.zhihu.com/p/400556541. 什么是CNAME以及CDN？
   12.    https://aws.amazon.com/cn/blogs/china/amazon-cloudfront-article/ 全站加速，Amazon CloudFront 配置不求人
   13.    https://aws.amazon.com/cn/getting-started/hands-on/how-to-apply-ssl-tls-certificate/  SSL/TLS证书申请及使用方法
-  14.    https://www.youtube.com/watch?v=l6haqi-aZvc  AWS CloudFront OAI | Use Origin Access Identity | Restrict Access to Your S3 
+  14.    https://www.youtube.com/watch?v=vUsJMh8PaCk  AWS CloudFront OAI | Use Origin Access Identity | Restrict Access to Your S3 
+  15.    
