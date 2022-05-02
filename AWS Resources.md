@@ -66,4 +66,5 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   8.    https://www.youtube.com/watch?v=mN7aiHucHjg&t=9s  买公网ip的服务器
   9.    https://www.youtube.com/watch?v=YsOsmUUvwBA. 网站上线部署，dns解析，dns delegation，
   10.    https://www.youtube.com/watch?v=Ge-dkZgqLKg.  how to apply a SSL certificate in AWS
+  11.    https://zhuanlan.zhihu.com/p/400556541. 什么是CNAME以及CDN？
       
