@@ -74,3 +74,4 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   16.    https://www.bilibili.com/video/BV1oR4y1375C?spm_id_from=333.880.my_history.page.click 端口是什么
   17.    https://www.guru99.com/creating-amazon-ec2-instance.html  How to Create EC2 Instance in AWS: Step by Step Tutorial
   18.    https://www.youtube.com/watch?v=wfyClQKSf9Q。 AWS Private vs Public vs Elastic IP Explained
+  19.    https://aws.amazon.com/getting-started/hands-on/get-a-domain/#  How to associate DNS,domain name and your Elastic IP.
