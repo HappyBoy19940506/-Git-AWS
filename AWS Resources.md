@@ -70,4 +70,5 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   12.    https://aws.amazon.com/cn/blogs/china/amazon-cloudfront-article/ 全站加速，Amazon CloudFront 配置不求人
   13.    https://aws.amazon.com/cn/getting-started/hands-on/how-to-apply-ssl-tls-certificate/  SSL/TLS证书申请及使用方法
   14.    https://www.youtube.com/watch?v=vUsJMh8PaCk  AWS CloudFront OAI | Use Origin Access Identity | Restrict Access to Your S3 
-  15.    
+  15.    https://www.bilibili.com/video/BV1KY411x7Jp?spm_id_from=333.337.search-card.all.click HTTPS是什么？加密原理和证书。SSL/TLS握手过程
+  16.    https://www.bilibili.com/video/BV1oR4y1375C?spm_id_from=333.880.my_history.page.click 端口是什么
