@@ -7,4 +7,4 @@
 3. SVN - GIT  
   Git: everyone has a full copy of the repo
   SVN: only get one pacth of working-relative part for your work
-4.
+4. 虽然 develop branch是masterbracnh分化来的，但是 deve不能merge回main，必须先 deve 分化出 release 或者叫test，然后 从test merge回main branch
