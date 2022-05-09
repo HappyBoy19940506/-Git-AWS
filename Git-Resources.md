@@ -10,3 +10,5 @@
 4. 虽然 develop branch是masterbracnh分化来的，但是 deve不能直接 merge回main，必须先 由deve 分化出 release 或者叫test branch，然后 从test branch merge回main branch
 5. 也就是说 三大branch是不变的， main 。 dev 。 test，是不变的， 但是 feature branch开发完后可以删掉。
 6. 也就是说，dev branch只负责 feautre的branch开发， main branch负责hotfix， test branch负责bugfix，一旦发生bugfix， test branch要向两头都merge，（dev和main都要更新）
+7. 也就是说 test branch是最麻烦的，因为他要 保持 同时向dev和mian的更新。 如何此时 dev 和 test 都发生了commit，那在merge时候就会出现冲突。
+8. 如何解决冲突呢，手动解决，如果规避呢，就是比如，你在dev里做了新的branch feature merge ，同时你在 test里又做了 bug fix，那你每次在test里做commit之前，请先 merge一下dev，确保你的test branch是最新的，这样你再commit 你的bug fix一定是 fast-forward merge。
