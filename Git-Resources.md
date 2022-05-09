@@ -8,3 +8,4 @@
   Git: everyone has a full copy of the repo
   SVN: only get one pacth of working-relative part for your work
 4. 虽然 develop branch是masterbracnh分化来的，但是 deve不能直接 merge回main，必须先 由deve 分化出 release 或者叫test branch，然后 从test branch merge回main branch
+5. 也就是说 三大branch是不变的， main 。 dev 。 test，是不变的， 但是 feature branch开发完后可以删掉。
