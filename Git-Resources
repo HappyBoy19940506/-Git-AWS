@@ -2,4 +2,7 @@
 
 2. dev-branch - TEST(devops)- CICD(devops)- REVIEW (Senior dev) -Merge back to mastesr (senior dev)
 
-3.
+3. SVN - GIT  
+  Git: everyone has a full copy of the repo
+  SVN: only get one pacth of working-relative part for your work
+4.
