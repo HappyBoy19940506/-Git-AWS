@@ -1,3 +1,8 @@
+
+[Understand different branches](https://blog.csdn.net/ShuSheng0007/article/details/80791849)
+
+非常有用，帮助你了解真正企业开发中如何使用branch来进行迭代开发
+
 ![jaja](https://img-blog.csdn.net/20180624174835949?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NodVNoZW5nMDAwNw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 1. main branch -- No code change, only for final merge- devOps go deploying
