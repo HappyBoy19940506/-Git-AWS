@@ -1,2 +1,2 @@
 # DevOps
-This is a DevOps repository for study only.
+This is a repository for Git - AWS in DevOps study only.
