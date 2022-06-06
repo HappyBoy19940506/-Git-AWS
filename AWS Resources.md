@@ -75,3 +75,7 @@ export AWS_DEFAULT_REGION=ap-southeast-2 (need to match with the one above)
   17.    https://www.guru99.com/creating-amazon-ec2-instance.html  How to Create EC2 Instance in AWS: Step by Step Tutorial
   18.    https://www.youtube.com/watch?v=wfyClQKSf9Q。 AWS Private vs Public vs Elastic IP Explained
   19.    https://aws.amazon.com/getting-started/hands-on/get-a-domain/#  How to associate DNS,domain name and your Elastic IP.
+  20.    Route 53的 hosted zone里绑定的 distribution 用的是 a 标签，虽然他不是 ip 地址。
+  21.    cloudfront里面 settings 设置 CNAME 为你的domain name ------两者都要做------- hosted zone里 也要设置 A记录的 xxxx.cloudfront.net的cdn地址。 
+
+
