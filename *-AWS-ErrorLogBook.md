@@ -90,8 +90,8 @@ A majority of modern use cases in Amazon S3 no longer require the use of ACLs, a
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html
 
-简单来说: 1  一个控制 谁 有什么权限 对这个object 做什么事情的一个 list，一般来说 创建他的人有最高权限，可以通过这个list给别人赋予权限
-         2  但是 现在都不用acl了，因为有其他aws 的policy 可以来进行object权限的配置，所以现在都 推荐 不使用 ACLs 
+简单来说: 1  一个控制 谁 有什么权限 对这个object 做什么事情的一个 list，一般来说 创建他的人有最高权限，可以通过这个list给别人赋予权限, 所以比如说 有别人朝你的aws账户的s3上传了一个object，如果你启用了acl，那你是没有资格控制资格object的。所以推荐disable掉，这样你就获得了所有在你s3里面的object的权限。
+         2  现在都不用acl了，因为有其他aws 的policy 比如可以依赖s3 policy可以来进行object权限的配置，所以现在都 推荐 不使用 ACLs 
 
 ```
 ----------------------------------------------------
