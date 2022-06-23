@@ -69,3 +69,29 @@ b.happyboy.com --- 本身b.happyboy.com的四个ns地址， a记录-他自己去
 
 ```
 ----------------------------------------------------
+# 6.  如何开放 s3
+
+## Resolved: 
+```
+1. Unchecked Public Acess Block
+2. Update the policy
+
+```
+----------------------------------------------------
+# 7.  啥叫ACL????? Access Control List
+
+## Resolved: 
+```
+Amazon S3 access control lists (ACLs) enable you to manage access to buckets and objects. Each bucket and object has an ACL attached to it as a subresource. It defines which AWS accounts or groups are granted access and the type of access. When a request is received against a resource, Amazon S3 checks the corresponding ACL to verify that the requester has the necessary access permissions.
+
+By default, when another AWS account uploads an object to your S3 bucket, that account (the object writer) owns the object, has access to it, and can grant other users access to it through ACLs. 
+
+A majority of modern use cases in Amazon S3 no longer require the use of ACLs, and we recommend that you disable ACLs except in unusual circumstances where you need to control access for each object individually. With Object Ownership, you can disable ACLs and rely on policies for access control. When you disable ACLs, you can easily maintain a bucket with objects uploaded by different AWS accounts. You, as the bucket owner, own all the objects in the bucket and can manage access to them using policies. 
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html
+
+简单来说: 1  一个控制 谁 有什么权限 对这个object 做什么事情的一个 list，一般来说 创建他的人有最高权限，可以通过这个list给别人赋予权限
+         2  但是 现在都不用acl了，因为有其他aws 的policy 可以来进行object权限的配置，所以现在都 推荐 不使用 ACLs 
+
+```
+----------------------------------------------------
