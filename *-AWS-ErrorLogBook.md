@@ -44,13 +44,16 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-dom
  
 ```
 ----------------------------------------------------
-# 3. 
-
+# 4. 如何申请 ssl 证书，在aws acm 中。
 ```
-Grs/jso
+acm.example.com
 ```
 ## Resolved: 
 ```
+1 先创建host zone - acm.example.com
+2 再delegation - acm.example.com  &  example.com 假设你有example这个域名
+3 最后再申请证书，就能10秒内下。
+
 ```
 ----------------------------------------------------
 # 3. 
