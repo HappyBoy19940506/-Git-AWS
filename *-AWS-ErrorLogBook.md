@@ -56,12 +56,16 @@ acm.example.com
 
 ```
 ----------------------------------------------------
-# 3. 
+# 5. 正确的route 53 - hosted zone.
 
-```
-Grs/jso
-```
 ## Resolved: 
 ```
+happyboy.com. --- 本身happyboy.com的4个ns， a.happyboy.com的四个ns地址，b.happyboy.com的四个ns地址， a记录-他自己去a连接的资源, ssl证书的record
+
+a.happyboy.com --- 本身a.happyboy.com的四个ns地址， a记录-他自己去a连接的资源, ssl证书的record
+
+b.happyboy.com --- 本身b.happyboy.com的四个ns地址， a记录-他自己去a连接的资源, ssl证书的record
+
+
 ```
 ----------------------------------------------------
