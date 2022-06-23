@@ -32,7 +32,7 @@ https://jaminzhang.github.io/dns/DNS-TTL-Understanding-and-Config/
 ```
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html
 1 . 为什么不能用 cname 的方法跳转 ？
- -  因为aws规定 你在  www.example.com的 host zone里面没办法写 CNAME的记录, 会报错。 比如你写 www.example CNAME example.com， 写不了。 
+ -  因为aws规定 你在  www.example.com的 host zone里面没办法写 CNAME的记录, 会报错。 比如你写 www.example CNAME example.com， 写不了。因为 A CNAME record is not allowed to coexist with any other data.   CN和ns记录a记录 不能同时存在。
  - a 标签只能写 aws resources或者 ip地址，写不了域名，而且只能写一个。
  
 2. 所以只能用 2个bucket的方法进行跳转。
