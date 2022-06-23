@@ -74,7 +74,8 @@ b.happyboy.com --- 本身b.happyboy.com的四个ns地址， a记录-他自己去
 ## Resolved: 
 ```
 1. Unchecked Public Acess Block
-2. Update the policy
+
+2. Update the policy -去 example里面抄 Granting read-only permission to an anonymous user
 
 ```
 ----------------------------------------------------
@@ -95,3 +96,73 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html
 
 ```
 ----------------------------------------------------
+----------------------------------------------------
+# 6.   s3里边 Block public access (bucket settings) 和 Bucket policy 有啥区别，为什么2个都要做才能开放s3.
+
+## Resolved: 
+```
+ -Block public access 这个 是用来 阻止 外网访问你的 bucket的，是以bucket来说
+ 
+ -The bucket policy, written in JSON, provides access to the objects stored in the bucket. Bucket policies don't apply to objects owned by other accounts 这个是用来 管理里面object有什么权限的，比如可以被读。
+```
+----------------------------------------------------
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+
+# 6.   
+
+## Resolved: 
+```
+
+----------------------------------------------------
+
