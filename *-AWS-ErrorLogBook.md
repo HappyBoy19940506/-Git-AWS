@@ -106,11 +106,17 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html
  -The bucket policy, written in JSON, provides access to the objects stored in the bucket. Bucket policies don't apply to objects owned by other accounts 这个是用来 管理里面object有什么权限的，比如可以被读。
 ```
 ----------------------------------------------------
-# 6.   
+# 6.  What is the difference between OAI vs IAM 'users' on AWS?
 
 ## Resolved: 
 ```
+A CloudFront Origin Access Identity (OAI) is not an IAM user, nor can it be used as such. An OAI is simply an identity that can be assigned to a CloudFront distribution to be used to identify requests to an S3 origin. The S3 origin bucket can then use the OAI in a bucket policy to allow only request from a CloudFront distribution with that specific OAI.
 
+An OAI cannot be assigned any other roles, policies or permissions and an IAM user cannot be assigned to a CloudFront distribution. The only reason an OAI exists is to allow better security of S3 origins for CloudFront distributions.
+
+Cloudfront -AOI - can allow to get objects from S3 bucket.
+
+```
 ----------------------------------------------------
 # 6.   
 
