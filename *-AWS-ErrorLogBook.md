@@ -118,10 +118,19 @@ Cloudfront -AOI - can allow to get objects from S3 bucket.
 
 ```
 ----------------------------------------------------
-# 6.   
+# 7. S3 Standard vs S3 Standard-IA vs S3 One Zone-IA vs S3 Glacier
 
 ## Resolved: 
 ```
+https://www.concurrencylabs.com/blog/save-money-using-s3-infrequent-access/
+
+1. 一个 region有几个az，为了数据不丢失， 普通s3 会在 同一个region的 不同az下 同时备份，以备不测
+2. ia 就是不常访问，访问速度会变慢
+3. one-zone就是 省钱 之放一个az里面，如果 One Zone IA does not. As its name implies, data is stored in a single Availability Zone, which means there is no cross-AZ data replication in the event of failure. If the AZ is destroyed, so is your data.
+4. s3 glacier 就是 超长时间存储用的 几十年的垃圾数据
+
+```
+
 
 ----------------------------------------------------
 
