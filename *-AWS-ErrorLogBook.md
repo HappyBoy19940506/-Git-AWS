@@ -134,28 +134,30 @@ https://www.concurrencylabs.com/blog/save-money-using-s3-infrequent-access/
 
 ----------------------------------------------------
 
-# 6.   
+# 8.创建ec2
 
 ## Resolved: 
+```
+1.stop就是关机， terminate就是删除，删了就不能restart了
+
+2. 用Linux (ubuntu 20.04)
+
+3. 为什么 ssh后有点延迟。。。你region设在了Virginia了大哥，ec2在美国 当然卡
+
+4.master用来分配工作不需要太多性能，agent需要docker所以内存硬盘都需要比较大，docker image很多1个g
+
 ```
 
 ----------------------------------------------------
 
-# 6.   
+# 9.  key pair
 
 ## Resolved: 
 ```
+key pair是跟 region走的， 所以 key pair 命名最好写清楚是哪个region ，
 
-----------------------------------------------------
-# 6.   
+比如 你在Virginia设置的key，在Sydney里面是搜不到的
 
-## Resolved: 
-```
-
-----------------------------------------------------
-# 6.   
-
-## Resolved: 
 ```
 
 ----------------------------------------------------
