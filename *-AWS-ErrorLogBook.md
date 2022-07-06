@@ -190,9 +190,14 @@ key pair是跟 region走的， 所以 key pair 命名最好写清楚是哪个reg
 ```
 ----------------------------------------------------
 
-# 6.   
+# 11.   AWS Elastic IP Explained and how to set an  ELP.
 
 ## Resolved: 
+```
+https://www.youtube.com/watch?v=wfyClQKSf9Q
+
+https://www.youtube.com/watch?v=h-yOoHbH_Dw
+
 ```
 
 ----------------------------------------------------
