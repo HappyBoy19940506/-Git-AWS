@@ -204,6 +204,8 @@ But overall, try to aviod use ELP
 Because, every account only has 5 ELPs.
 You can use Route53 -Domain Name to your EC2 with random public IP == work around.
 同样的效果 but more scalale.
+
+https://medium.com/innovation-incubator/how-to-automatically-update-ip-addresses-without-using-elastic-ips-on-amazon-route-53-4593e3e61c4c
 ```
 
 ----------------------------------------------------
